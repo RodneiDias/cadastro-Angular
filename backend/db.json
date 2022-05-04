@@ -24,6 +24,11 @@
       "name": "igor",
       "price": "87978",
       "id": 5
+    },
+    {
+      "id": 6,
+      "name": "produto teste",
+      "price": "1000"
     }
   ]
 }
