@@ -29,6 +29,11 @@
       "id": 6,
       "name": "produto teste",
       "price": "1000"
+    },
+    {
+      "id": 7,
+      "name": "dfsd",
+      "price": "3523"
     }
   ]
 }
