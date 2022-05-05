@@ -12,11 +12,12 @@ export class ProductService {
   baseUrl = "http://localhost:3000/product"
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
-  showMessage(msg: string): void {
+  showMessage(msg: string, isError: boolean=false): void {
     this.snackBar.open(msg, 'X', {
       duration: 3000,
       horizontalPosition: "right",
-      verticalPosition: "top"
+      verticalPosition: "top",
+      panelClass:isError ? ['msg-error'] :['msg-success']
     })
   }
 
@@ -28,7 +29,7 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl)
   }
 
-  readById(id: string): Observable<Product> {
+  readById(id: number): Observable<Product> {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Product>(url)
   }
