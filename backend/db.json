@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta BIC Preta",
-      "price": 5.89
+      "price": "7.89"
     },
     {
       "id": 2,
@@ -19,21 +19,6 @@
       "name": "shdiu",
       "price": "87978",
       "id": 4
-    },
-    {
-      "name": "igor",
-      "price": "87978",
-      "id": 5
-    },
-    {
-      "id": 6,
-      "name": "produto teste",
-      "price": "1000"
-    },
-    {
-      "id": 7,
-      "name": "dfsd",
-      "price": "3523"
     }
   ]
 }
